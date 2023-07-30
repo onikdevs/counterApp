@@ -1,0 +1,75 @@
+.counter {
+  text-align: center;
+}
+.count {
+  color: tomato;
+  font-size: 36px;
+}
+.increase {
+  font-size: 25px;
+  border: 0;
+  background: green;
+  color: yellow;
+  margin: 10px;
+  padding: 10px;
+}
+.decrease {
+  font-size: 20px;
+  border: 0;
+  background: rgb(117, 14, 14);
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+.reset {
+  font-size: 30px;
+  border: 0;
+  background: teal;
+  color: black;
+  margin: 10px;
+  padding: 10px 20px;
+}
+.oddoreven {
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+  color: brown;
+}
+.cardvalue_main {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.cardvalue:hover {
+  background: yellow;
+  color: #000;
+}
+.cardvalue {
+  transition: 0.4s;
+  line-height: 100px;
+  background: #000;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.teal,
+.even,
+.odd {
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+}
+.teal {
+  color: teal;
+}
+.odd {
+  color: red;
+}
+.even {
+  color: green;
+}
